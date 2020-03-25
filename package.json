@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sogrey/VuepressBlogTemplate.git"
+    "url": "git+https://github.com/Sogrey/WebGL-start.git"
   },
   "author": "Sogrey",
   "license": "MIT",
@@ -23,10 +23,11 @@
     "lodash.template": ">=4.5.0",
     "lodash": ">=4.17.13",
     "braces": ">=2.3.1",
-    "serialize-javascript": ">=2.1.1"
+    "serialize-javascript": ">=2.1.1",
+    "minimist": ">=1.2.2"
   },
   "bugs": {
-    "url": "https://github.com/Sogrey/VuepressBlogTemplate/issues"
+    "url": "https://github.com/Sogrey/WebGL-start/issues"
   },
-  "homepage": "https://github.com/Sogrey/VuepressBlogTemplate#readme"
+  "homepage": "https://github.com/Sogrey/WebGL-start#readme"
 }

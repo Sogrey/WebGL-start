@@ -2,7 +2,7 @@ module.exports = {
   port: "3000",
   dest: "docs",
   ga: "UA-85414008-1",
-  base: "/VuepressBlogTemplate/",
+  base: "/WebGL-start/",
   markdown: {
     externalLinks: {
       target: '_blank',
@@ -10,18 +10,18 @@ module.exports = {
     }
   },
   lang: "zh-CN",
-  title: "Vuepress 模板",
-  description: "为简化开发而生",
+  title: "WebGL-start",
+  description: "WebGL 入门学习",
   locales: {
     "/zh/": {
       lang: "zh-CN",
-      title: "Vuepress 模板",
-      description: "为简化开发而生"
+      title: "WebGL-start",
+      description: "WebGL 入门学习",
     },
     "/en/": {
       lang: "en-US",
-      title: "Vuepress Blog Template",
-      description: "Born To Simplify Development"
+      title: "WebGL-start",
+      description: "WebGL start"
     }
   },
   head: [
@@ -31,8 +31,8 @@ module.exports = {
     }]
   ],
   themeConfig: {
-    repo: "Sogrey/VuepressBlogTemplate",
-    docsRepo: "Sogrey/VuepressBlogTemplate",
+    repo: "Sogrey/WebGL-start",
+    docsRepo: "Sogrey/WebGL-start",
     editLinks: true,
     docsDir: 'source',
     locales: {
