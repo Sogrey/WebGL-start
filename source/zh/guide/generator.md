@@ -45,4 +45,3 @@ sidebarDepth: 3
 ## 参考
 - [WebGL着色器内置变量总结](https://blog.csdn.net/qq_34862021/article/details/98076495)
 - [WebGL着色器内置变量gl_PointSize、gl_Position、gl_FragColor、gl_FragCoord、gl_PointCoord](https://blog.csdn.net/u014291990/article/details/103112914)
-
