@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>第一个WebGL应用</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="viewer" style='width: 600px;height: 400px;'></canvas>
+    <script>
+        // https://www.khronos.org/webgl/
+        // https://www.khronos.org/registry/webgl/specs/latest/2.0/
+        var webgl = null;
+
+        function init() {
+            var canvas = document.getElementById('viewer');
+            webgl = canvas.getContext('webgl');
+
+            //设置webgl视口尺寸占全部canvas大小
+            webgl.viewport(0, 0, canvas.clientWidth, canvas.clientHeight);
+
+            webgl.clearColor(1.0, 0.0, 0.0, 1.0);
+            //COLOR_BUFFER_BIT 帧缓冲区 颜色缓冲区 深度缓冲区 模板缓冲区
+            webgl.clear(webgl.COLOR_BUFFER_BIT);
+        }
+        init();
+    </script>
+</body>
+
+</html>
